@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import axios from 'axios';
-import Joke from '../components/Joke';
-import HandleJoke from '../components/HandleJoke';
 
 const RandomJokes = () => {
   const [jokes, setJokes] = useState('');
@@ -87,8 +85,6 @@ const RandomJokes = () => {
       FirstNameLastName: 'Carl Hewitt',
     },
   ];
-
-  console.log({ componenRef });
 
   return (
     <div className="flex flex-col items-center justify-center h-screen gap-20">
