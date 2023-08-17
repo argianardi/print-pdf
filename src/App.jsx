@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<RandomJokes />} />
-        <Route path="/print" element={<TabularData />} />
+        <Route path="/tabular-data" element={<TabularData />} />
       </Routes>
     </BrowserRouter>
   );
